@@ -3,6 +3,7 @@
 // BSD-style license that can be found in the LICENSE file.
 
 import 'package:firebase_ui_storage_example/main.dart';
+import 'package:firebase_ui_storage_example/src/list_view_app.dart';
 import 'package:firebase_ui_storage_example/src/storage_image_app.dart';
 import 'package:flutter/material.dart';
 
@@ -17,6 +18,7 @@ const apps = <App>[
   UploadButtonApp(),
   ProgressBarApp(),
   StorageImageApp(),
+  StorageListViewApp(),
 ];
 
 class AppList extends StatelessWidget {
